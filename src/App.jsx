@@ -10,7 +10,7 @@ import Story from './components/Story'
 function App() {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full overflow-x-hidden select-none">
         <Navbar/>
         <Landing/>
         <Work/>

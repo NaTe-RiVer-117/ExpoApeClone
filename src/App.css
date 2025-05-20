@@ -1,27 +1,27 @@
 @import "tailwindcss";
 
-/* Cross-browser scrollbar hiding */
+
 * {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;     /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
 }
 
 ::-webkit-scrollbar {
-  display: none;              /* Chrome, Safari and Opera */
+  display: none;           
 }
 
-/* Add focus styles for accessibility */
+
 a:focus, button:focus {
   outline: 2px solid #4299e1;
   outline-offset: 2px;
 }
 
-/* Add video loading indicator */
+
 video {
   background: rgba(0, 0, 0, 0.1) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38"><g fill="none" fill-rule="evenodd"><g transform="translate(1 1)" stroke-width="2"><circle stroke="rgba(255,255,255,0.2)" cx="18" cy="18" r="18"/><path stroke="rgba(255,255,255,0.8)" d="M36 18c0-9.94-8.06-18-18-18"></path></g></g></svg>') center center no-repeat;
 }
 
-/* Add image loading fallback */
+
 img {
   background-color: rgba(0, 0, 0, 0.1);
 }
